@@ -1,0 +1,7 @@
+DirectoryIndex index.php
+<Files "*.tpl"> 
+    Order Deny,Allow 
+    Deny from all 
+</Files>  
+# # av:Toolbar
+SetEnv AV_TOOLBAR 1
