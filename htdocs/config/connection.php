@@ -10,10 +10,10 @@
 define("SQL_SERVER", "localhost");
 
 // ***** Database Username
-define("SQL_USER", "andrej");
+define("SQL_USER", "root");
 
 // ***** Database Password
-define("SQL_PASS", "Andrej2341923545!@");
+define("SQL_PASS", "");
 
 // ***** Database Name
 define("SQL_DB", "travian");
