@@ -1432,7 +1432,7 @@ class Automation {
                 $battlepart = $battle->calculateBattle($Attacker, $Defender, $def_wall, $att_tribe, $def_tribe, $residence, $attpop, $defpop, $type, $def_ab, $att_ab, $tblevel, $stonemason, $walllevel, $AttackerID, $DefenderID);
                 //units attack string for battleraport
                 $unitssend_att = ''.$data['t1'].','.$data['t2'].','.$data['t3'].','.$data['t4'].','.$data['t5'].','.$data['t6'].','.$data['t7'].','.$data['t8'].','.$data['t9'].','.$data['t10'].','.$data['t11'].'';
-                $totalsend_att = ''.$data['t1'] + $data['t2'] + $data['t3'] + $data['t4'] + $data['t5'] + $data['t6'] + $data['t7'] + $data['t8'] + $data['t9'] + $data['t10'] + $data['t11'];
+                $totalsend_att = ''.$data['t1'] . $data['t2'] . $data['t3'] . $data['t4'] . $data['t5'] . $data['t6'] . $data['t7'] . $data['t8'] . $data['t9'] . $data['t10'] . $data['t11'];
                 
                 //units defence string for battleraport
                 $unitssend_def[1] = ''.$Defender['u1'].','.$Defender['u2'].','.$Defender['u3'].','.$Defender['u4'].','.$Defender['u5'].','.$Defender['u6'].','.$Defender['u7'].','.$Defender['u8'].','.$Defender['u9'].','.$Defender['u10'].','.($Defender['hero'] + $DefenderHeroRef).'';
